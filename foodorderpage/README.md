@@ -1,6 +1,6 @@
 # Meals Landing Page 
 
-This is a simple and responsive frontend landing page created while learning **HTML, CSS, and Bootstrap**.
+This is a simple frontend landing page created while learning **HTML, CSS, and Bootstrap**.
 The page displays a food-themed banner with a call-to-action button.
 
 ---
