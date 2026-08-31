@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link rel="stylesheet" href="index.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+
+    <!--home page section-->
+    <div id ="home" class ="home-section-container d-flex flex-column justify-content-end">
+        <div class="card-container">
+            <h1 class = "heading">Tourism</h1>
+            <p class ="para">Plan where ever you want to go.</p>
+            <button onclick="display('place')" class="start-button">Get Started</button>
+        </div>
+    </div>
+    
+    
+    
+
+
+    <!--tourist-places-section-->
+    <div id ="place" class = "places-section-container" >
+        <div class = "bg-container d-flex flex-column justify-content-around align-items-center">
+            <div class = "item-container d-flex flex-row">
+                <img src="https://h2.gifposter.com/bingImages/TajMahalReflection_1920x1080.jpg" class="tourism-img"/>
+                <div class = "description-container">
+                    <h1 class = "place-heading">Taj Mahal</h1>
+                    <p>
+                        Taj Mahal is a world-famous monument located in Agra, India, built by Emperor Shah Jahan in memory of his wife Mumtaz Mahal. It is made of beautiful white marble and is one of the Seven Wonders of the World.
+                    </p>
+                    <button class = "know-more-button">Know More</button>
+                </div>
+            </div>
+
+            <div class = "item-container d-flex flex-row ">
+                <img src="https://media.istockphoto.com/photos/varanasi-picture-id1304671291?b=1&k=20&m=1304671291&s=170667a&w=0&h=BOzC8KesoAFFqzUJSRgOi670xC3mVsteVLiQHyxXPlU=" class="tourism-img"/>
+                <div class = "description-container">
+                    <h1 class = "place-heading">Varanasi</h1>
+                    <p>
+                        Varanasi is one of the oldest cities in India, famous for its spiritual significance and the beautiful ghats along the River Ganges. It is known for the Ganga Aarti, ancient temples, rich culture, and vibrant traditions.
+
+                    </p>
+                    <button class = "know-more-button">Know More</button>
+                </div>
+            </div>
+
+            <div class = "item-container d-flex flex-row ">
+                <img src="https://wallpaperbat.com/img/9764298-the-only-way-to-explore-goa-without.jpg" class="tourism-img"/>
+                <div class = "description-container">
+                    <h1 class = "place-heading">Goa</h1>
+                    <p>
+                        Goa is a popular tourist destination in India, famous for its beautiful beaches, vibrant culture, and scenic landscapes. It is also known for historic churches, Portuguese architecture, exciting nightlife, and delicious seafood.
+                    </p>
+                    <button class = "know-more-button">Know More</button>
+                </div>
+            </div>
+
+            <div class = "item-container d-flex flex-row ">
+                <img src="https://t4.ftcdn.net/jpg/03/04/01/79/360_F_304017914_06ibltT3eX4UID80q0dSUybLsrfzUubL.jpg" class="tourism-img"/>
+                <div class = "description-container">
+                    <h1 class = "place-heading">Manali</h1>
+                    <p>
+                        Manali is a beautiful hill station in Himachal Pradesh, famous for its snow-capped mountains, lush valleys, and scenic landscapes. It is a popular destination for adventure activities like trekking, skiing, river rafting, and paragliding.
+
+                    </p>
+                    <button class = "know-more-button">Know More</button>
+                </div>
+            </div>
+        </div>
+        <div class = "back-button">
+            <button onclick = "display('home')" class = "btn btn-info" >Back</button>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+    <script
+      type="text/javascript"
+      src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+  </body>
+</html>

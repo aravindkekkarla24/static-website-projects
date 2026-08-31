@@ -1,0 +1,22 @@
+
+.bg-container{
+    height:100vh;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/022/712/737/non_2x/beach-cartoon-background-wallpaper-generat-ai-free-photo.jpg");
+    background-size:cover;
+}
+
+.card-container{
+    height:25vh;
+    margin:1.5px;
+    background-color:rgb(120, 45, 213);
+    border-top-right-radius:25px;
+    border-top-left-radius:25px;
+    padding-top:25px;
+    text-align:center;
+
+   
+    font-family:"Roboto";
+    letter-spacing:2px;
+    word-spacing:5px;
+}
+

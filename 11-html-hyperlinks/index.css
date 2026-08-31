@@ -1,0 +1,52 @@
+
+
+
+.bg-container{
+    height:100vh;
+    width:100vw;
+    background-color:rgb(202, 223, 224);
+}
+
+
+.image-container{
+    height:25%;
+    width:100%;
+    padding-top:25px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   
+}
+
+.virat-img{
+    height:250px;
+    width:250px;
+    border-radius:125px;
+    
+}
+
+.conent-container{
+    margin-top:20px;
+    height:75%;
+    width:100%;
+    background-color:rgb(202, 223, 224);
+    padding:25px
+}
+
+
+.heading{
+    font-family:"Roboto";
+    text-align:center;
+    color:black
+}
+
+.heading-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    font-family:"Roboto";
+    font-weight:bold;
+}
+
+

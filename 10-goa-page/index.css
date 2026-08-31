@@ -1,0 +1,51 @@
+
+
+.bg-container{
+    height:100vh;
+    width:100vw;
+    background-color:rgb(216, 231, 232);
+    padding:25px;
+}
+
+.card-container{
+    height:95vh;
+    width:98wh;
+    background-color:white;
+    border:10px solid black;
+    border-radius:15px;
+
+    display:flex;
+    flex-direction:column;
+}
+
+
+
+.carousel-container{
+    width:100%;
+    height:50%;
+    
+}
+
+
+.carousel-item img{
+    width:100%;
+    height:300px;
+
+}
+
+
+.description-container{
+    width:100%;
+    background-color:white;
+    height:25%;
+   
+    text-align:center;
+    font-family:"Roboto";
+}
+
+
+.embed-videos-container{
+    width:100%;
+    height:25%;
+    background-color:white;
+}
